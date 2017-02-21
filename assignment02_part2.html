@@ -289,7 +289,7 @@
             coinFlip = "heads";
         }
         
-        // STEPS 4 - 7
+        // STEPS 4-7
         if (coinFlip == choice) {
             window.alert("The flip was " + coinFlip + " and you chose " + choice + " ...you win!");
         } else {
@@ -302,7 +302,7 @@
         // STEP 1
         var coinFlip;
         
-        // STEP 2
+        // STEPS 2-4
         for (var i = 0; i < 10; i++) {
             coinFlip = Math.random();
             coinFlip = Math.round(coinFlip);
@@ -315,8 +315,22 @@
         */
         
         // Part 7 - The “Coin Flip Streak” Game
+        /*
+        // STEP 1
+        var coinFlip;
         
-        
+        // STEP 2
+        do {
+            coinFlip = Math.random();
+            coinFlip = Math.round(coinFlip);
+            if (coinFlip == 0) {
+                coinFlip = "Heads"
+            } else {
+                coinFlip = "Tails";
+            }
+            window.console.log(coinFlip);
+        } while (coinFlip == "Heads");
+        */
         
         // Part 8 - Looping a Triangle
         /*
